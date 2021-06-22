@@ -252,7 +252,7 @@ async def help(client, message):
     if message.chat.type == 'private':   
         await Songbot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Send a song name to download song
+               text="""<b>➼ Sᴇɴᴅ A Sᴏɴɢ Nᴀᴍᴇ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢ ✨
 
 @song_op_bot</b>""",
             reply_to_message_id=message.message_id
@@ -260,7 +260,7 @@ async def help(client, message):
     else:
         await Songbot.send_message(
                chat_id=message.chat.id,
-               text="<b>Song Downloader Help.\n\nSyntax: `/song guleba`</b>",
+               text="<b>Song Downloader Help.\n\nSyntax: `/song closer`</b>",
             reply_to_message_id=message.message_id
         )     
         
