@@ -215,9 +215,9 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Songbot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a Song Downloader Bot. A bot by @song_op_bot.
+               text="""<b>➼ Hᴇʏ Tʜᴇʀᴇ , I'ᴍ A Sᴏɴɢ Dᴏᴡɴʟᴏᴀᴅᴇʀ Bᴏᴛ. A Bᴏᴛ Bʏ @FallenAngel_xD.
 
-Hit help button to find out more about how to use me</b>""",   
+➼ Hɪᴛ Hᴇʟᴘ Bᴜᴛᴛᴏɴ Tᴏ Fɪɴᴅ Oᴜᴛ Mᴏʀᴇ Aʙᴏᴜᴛ Hᴏᴡ Tᴏ Usᴇ Mᴇ ✨</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
