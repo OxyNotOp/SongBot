@@ -9,8 +9,8 @@
         "JE Bots"
     ],
     "website": "https://infinityje.com",
-    "repository": "https://github.com/ImJanindu/Songdl-tgbot",
-    "success_url": "https://t.me/Infinity_BOTs",
+    "repository": "https://github.com/OxyNotOp/SongBot",
+    "success_url": "https://t.me/X_F0RCE_TEAM",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
