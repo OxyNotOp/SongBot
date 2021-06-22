@@ -254,7 +254,7 @@ async def help(client, message):
                chat_id=message.chat.id,
                text="""<b>➼ Sᴇɴᴅ A Sᴏɴɢ Nᴀᴍᴇ Tᴏ Dᴏᴡɴʟᴏᴀᴅ Sᴏɴɢ ✨
 
-@song_op_bot</b>""",
+➼ @song_op_bot</b>""",
             reply_to_message_id=message.message_id
         )
     else:
