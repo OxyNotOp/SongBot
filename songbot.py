@@ -221,9 +221,9 @@ async def start(client, message):
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Help", callback_data="help"),
+                                            "Hᴇʟᴘ", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Owner", url="https://t.me/FallenAngel_xD")
+                                            "Oᴡɴᴇʀ", url="https://t.me/FallenAngel_xD")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
